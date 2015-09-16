@@ -1,5 +1,4 @@
-
-
+Download anaconda from: http://continuum.io/downloads#all
 
     conda install jupyter
     conda install matplotlib
