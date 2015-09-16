@@ -1,0 +1,31 @@
+body {
+    font-size: 130%;
+    /*overflow:hidden;*/
+}
+
+.rendered_html{
+ font-family:serif;
+ line-height:1.5em;
+ padding-top:7px;
+}
+
+div.highlight#pre {
+    font-size: 20pt;
+}
+
+div.prompt { /* remove In/Out prompt */
+    display: none;
+}
+ 
+div.cell.code_cell { /* area that contains code + output */
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding-top: 1ex;
+}
+
+
+/* header colours and fonts */
+.rendered_html h1 { color: #444; font-style: italic; font-weight: normal}
+.rendered_html h2 { color: #443;}
+.rendered_html h3 { color: #444; font-style: italic; font-weight: normal}
